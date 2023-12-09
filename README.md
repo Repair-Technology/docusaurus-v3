@@ -29,7 +29,7 @@ Make the following changes to the `docusaurus.config.ts` configuration file:
    ```
    const config: Config = {
      // (...)
-     url: `https://${organizationName}.github.io`,
+     url: `https://<github-organization-name>.github.io`,
      baseUrl = '/<repository-name>/`;
      };
    ```
@@ -59,11 +59,11 @@ Make the following changes to the `docusaurus.config.ts` configuration file:
          {
            docs: {
              // (...)
-             editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
+             editUrl: `https://github.com/<github-organization-name>/<repository-name>/tree/main/`,
            },
            blog: {
              // (...)
-             editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
+             editUrl: `https://github.com/<github-organization-name>/<repository-name>/tree/main/`,
            },
          },
        ],
